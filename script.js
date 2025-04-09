@@ -56,7 +56,7 @@ function checkAns() {
         alert("Another virus detected!");
         window.location.href = "fourthpage.html";  // Redirect to success page
     } else {
-        alert("Gara, mali isa. Sagutan mo ulit, boss.");
+        alert("Gara, may mali. Sagutan mo ulit, boss.");
     }
 }
 
