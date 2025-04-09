@@ -25,7 +25,7 @@ function startCountdown() {
             clearInterval(countdownInterval);
             localStorage.setItem("timer", 300); // Reset the timer in storage
             alert("Time's up! Gara, ulit ka sa umpisa."); 
-            window.location.href = "firstpage.html"; // Replace with your actual start page filename
+            window.location.href = "index.html"; // Replace with your actual start page filename
         }
     }, 1000);
 }
