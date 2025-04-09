@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+    background-image: url('bgg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.virusbox {
+    position: relative;
+    width: 700px;
+    height: 528px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.virustxt {
+    width: 95%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(245, 245, 245);
+    border: 4px double red;
+}
+
+.virtxt {
+    padding: 9px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.virustimer {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    border: 4px double white;
+
+}
+
+.virtim {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+.virustimer1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: white;
+    border-bottom: 4px solid white;
+    width: calc(100% + 7px); 
+    transform: translateX(-17px); 
+}
+
+.virtim1 {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.removevirus1 {
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.buttons {
+    display: flex;
+    gap: 70px;
+}
+
+.buttons a .removebtn {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: white;
+    font-size: 1em;
+    outline: none;
+    border: 2px solid white;
+    transition: 0.1s;
+}
+
+.buttons a button {
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: red;
+    font-size: 1em;
+    outline: none;
+    border: 2px solid red;
+    transition: 0.1s;
+}
+
+.buttons a button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black
+}
+
+.buttons a button:active {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+.questitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.quesbox {
+    position: relative;
+    width: 700px;
+    height: 527px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.ques {
+    position: relative;
+    width: 95%;
+    margin: 0 0 25px 0;
+    border-bottom: 2px solid white;
+}
+
+.ques label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1.1em;
+    color: white;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.ques input:focus~label,
+.ques input:valid~label {
+    top: -0.1px;
+}
+
+.ques input {
+    background: transparent;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    padding: 0 35px 0 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.submitbtn {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: white;
+    font-size: 1em;
+    outline: none;
+    border: 2px solid white;
+    transition: 0.1s;
+}
+
+.submitbtn:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black
+}
+
+.submitbtn:active {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.timercolor {
+    color: red;
+}
